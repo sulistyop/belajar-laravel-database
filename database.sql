@@ -37,3 +37,9 @@ create table products
 select * from products;
 
 select products.id, products.name, products.price, c.name as category_name from products join categories c on products.category_id = c.id
+
+drop table products;
+drop table categories;
+drop table counters;
+
+select * from categories;
